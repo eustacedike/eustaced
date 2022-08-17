@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/index.css">
+    <link rel="shortcut icon" href="./assets/icons/favicon.ico" type="image/x-icon">
     <title>Eustace Portfolio</title>
 
 </head>
@@ -23,43 +24,63 @@
                 </div>
             </div>
             <div class="menu-2">
-                <div onclick="trys('flexible-1','flexible-2','flexible-3','flexible-4')"><img
+                <div class="away" onclick="trys('flexible-1','flexible-2','flexible-3','flexible-4')"><img
                         src="./assets/icons/icons8-person-30.png" alt="">
                     <p>ABOUT</p>
                 </div>
-                <div onclick="trys('flexible-2','flexible-1','flexible-3','flexible-4')"><img
+                <div class="away" onclick="trys('flexible-2','flexible-1','flexible-3','flexible-4')"><img
                         src="./assets/icons/icons8-resume-30.png" alt="">
                     <p>RESUME</p>
                 </div>
-                <div onclick="trys('flexible-3','flexible-1','flexible-2','flexible-4')"><img
+                <div class="away" onclick="trys('flexible-3','flexible-1','flexible-2','flexible-4')"><img
                         src="./assets/icons/icons8-workstation-50.png" alt="">
                     <p>PROJECTS</p>
                 </div>
-                <div onclick="trys('flexible-4','flexible-1','flexible-2','flexible-3')"><img src="./assets/icons/icons8-mail-50.png"
-                        alt="">
+                <div class="away" onclick="trys('flexible-4','flexible-1','flexible-2','flexible-3')"><img
+                        src="./assets/icons/icons8-mail-50.png" alt="">
                     <p>CONTACT</p>
                 </div>
+                <a style="text-decoration: none; color: black;" href="#flexible-1" class="way"><div onclick="dropDown('chevron-1','flexible-1')"><img
+                        src="./assets/icons/icons8-person-30.png" alt="">
+                    <p>ABOUT</p>
+                </div></a>
+                <a style="text-decoration: none; color: black;" href="#flexible-2" class="way"><div onclick="dropDown('chevron-2','flexible-2')"><img
+                        src="./assets/icons/icons8-resume-30.png" alt="">
+                    <p>RESUME</p>
+                </div></a>
+                <a style="text-decoration: none; color: black;" href="#flexible-3" class="way"><div onclick="dropDown('chevron-3','flexible-3')"><img
+                        src="./assets/icons/icons8-workstation-50.png" alt="">
+                    <p>PROJECTS</p>
+                </div></a>
+                <a style="text-decoration: none; color: black;" href="#flexible-4" class="way"><div onclick="dropDown('chevron-4','flexible-4')"><img
+                        src="./assets/icons/icons8-mail-50.png" alt="">
+                    <p>CONTACT</p>
+                </div></a>
+                
             </div>
         </div>
         <div class="back"></div>
         <div class="the-man" id="the-man">
             <div class="me">
-                <img width="auto" height="70%" src="./assets/images/IMG_5718-removebg-preview.png" alt="">
+                <img width="" height="100%" src="./assets/images/pgg-ag-removebg-preview.png" alt="">
             </div>
             <div class="my-details">
                 <h1>Eustace Dike</h1>
                 <!-- <button onclick="trys()">TRYYYYYYY</button> -->
                 <h3>Web Developer</h3>
                 <div class="socials">
-                    <a href="https://twitter.com/eustace_dike"><img src="./assets/icons/icons8-twitter-30.png" alt=""></a>
+                    <a href="https://twitter.com/eustace_dike"><img src="./assets/icons/icons8-twitter-30.png"
+                            alt=""></a>
                     <a href="https://github.com/eustacedike"><img src="./assets/icons/icons8-github-30.png" alt=""></a>
-                    <a href="https://web.facebook.com/eustace.dike"><img src="./assets/icons/icons8-facebook-30.png" alt=""></a>
+                    <a href="https://web.facebook.com/eustace.dike"><img src="./assets/icons/icons8-facebook-30.png"
+                            alt=""></a>
                     <a href="https://www.linkedin.com/in/eustace-dike-123557211/"><img
                             src="./assets/icons/icons8-linkedin-circled-30.png" alt=""></a>
                     <a href="https://wa.link/axlni2"><img src="./assets/icons/icons8-whatsapp-30.png" alt=""></a>
                 </div>
                 <div class="cv-contact">
-                    <div class="cv" onclick="window.location.href='./assets/files/eustacedike.pdf'"><b>DOWNLOAD CV</b></div>
+                    <div class="cv" onclick="window.location.href='./assets/files/eustacedike.pdf'"><b>DOWNLOAD CV</b>
+                    </div>
                     <div class="contact"><b onclick="trys('flexible-4','flexible-1','flexible-2','flexible-3')">CONTACT
                             ME</b></div>
                 </div>
@@ -248,7 +269,7 @@
                             <h3><span>MTN</span> CLONE</h3>
                             <p>A replica of MTN Nigeria website built using ReactJs Framework, CSS and flickity. In
                                 progress...</p>
-                            <a href="">see more.... &rArr;</a>
+                            <a href="https://github.com/eustacedike/MTNclone">see more.... <span class="arrow">&#8594;</span></a>
                         </div>
                     </div>
                     <div class="box-work">
@@ -257,7 +278,8 @@
                             <h3><span>LUXURY</span> HOTEL</h3>
                             <p>An internship project. A basic multi-page hotel website displaying the qualities of the
                                 hotel, it's facilities and pricing</p>
-                            <a href="https://eustacedike.github.io/luxury-hotels/">see more.... &rArr;</a>
+                            <a href="https://eustacedike.github.io/luxury-hotels/">see more.... <span
+                                    class="arrow">&#8594;</span></a>
                         </div>
                     </div>
                     <div class="box-work">
@@ -266,7 +288,8 @@
                             <h3><span>WIDE</span> CHOICE</h3>
                             <p>An internship project. An E-commerce platform specialized in sales of unisex wears nd
                                 accessories for both adults and children.</p>
-                            <a href="https://eustacedike.github.io/wide-choice/">see more.... &rArr;</a>
+                            <a href="https://eustacedike.github.io/wide-choice/">see more.... <span
+                                    class="arrow">&#8594;</span></a>
                         </div>
                     </div>
 
@@ -292,11 +315,13 @@
                         </div>
                         <div class="form-1">
                             <label for="email"><b>Email</b></label> <br>
-                            <input class="puth" type="email" name="sender-email" placeholder="Enter Your Email" required />
+                            <input class="puth" type="email" name="sender-email" placeholder="Enter Your Email"
+                                required />
                         </div>
                         <div class="form-1">
                             <label for="message"><b>Message</b></label> <br>
-                            <textarea class="puth" name="message" cols="20" rows="6" placeholder="Your message..."></textarea>
+                            <textarea class="puth" name="message" cols="20" rows="6"
+                                placeholder="Your message..."></textarea>
                         </div>
                         <button class="submit-btn">Send</button>
                     </form>
@@ -305,44 +330,44 @@
                 <div class="socc" style="margin-bottom: 20px; margin-top: 30px;">
                     <div class="title-text" style="height: 25px;">
                         <h2><span>Socials</span> and Links</h2>
-                       
+
                     </div>
                     <div>
-                            <div class="socicons">
-                                <div>
-                                    <img src="./assets/icons/icons8-phone-50.png" alt="">
-                                    <a href="">+234 703 723 0631</a> 
-                                </div>
-                                <div>
-                                    <img src="./assets/icons/icons8-mail-50 (1).png" alt="">
-                                    <a href="">eustacedyke@gmail.com</a> 
-                                </div>
-                                <div>
-                                    <img src="./assets/icons/icons8-github-50.png" alt="">
-                                    <a href="">eustacedike</a> 
-                                </div>
-                                <div>
-                                    <img src="./assets/icons/icons8-twitter-30 (2).png" alt="">
-                                    <a href="">@eustace_dike</a> 
-                                </div>
-                                <div>
-                                    <img src="./assets/icons/icons8-telegram-app-50.png" alt="">
-                                    <a href="">@eustacedike</a> 
-                                </div>
-                                <div>
-                                    <img src="./assets/icons/icons8-linkedin-circled-50.png" alt="">
-                                    <a href="">Eustace Dike</a> 
-                                </div>
-                                
-                              
+                        <div class="socicons">
+                            <div>
+                                <img src="./assets/icons/icons8-phone-50.png" alt="">
+                                <a href="">+234 703 723 0631</a>
                             </div>
+                            <div>
+                                <img src="./assets/icons/icons8-mail-50 (1).png" alt="">
+                                <a href="">eustacedyke@gmail.com</a>
+                            </div>
+                            <div>
+                                <img src="./assets/icons/icons8-github-50.png" alt="">
+                                <a href="">eustacedike</a>
+                            </div>
+                            <div>
+                                <img src="./assets/icons/icons8-twitter-30 (2).png" alt="">
+                                <a href="">@eustace_dike</a>
+                            </div>
+                            <div>
+                                <img src="./assets/icons/icons8-telegram-app-50.png" alt="">
+                                <a href="">@eustacedike</a>
+                            </div>
+                            <div>
+                                <img src="./assets/icons/icons8-linkedin-circled-50.png" alt="">
+                                <a href="">Eustace Dike</a>
+                            </div>
+
+
                         </div>
+                    </div>
                 </div>
 
                 <div class="locate">
                     <div class="title-text">
                         <h2><span>Locate</span> Me</h2>
-                        
+
                     </div>
                     <div class="mapouter">
                         <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas"
