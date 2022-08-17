@@ -11,18 +11,27 @@
 </head>
 
 <body>
+
+    <!-- Hero: Main parent container -->
     <div class="hero" id="hero">
-        <!-- <div class="hero__title"></div> -->
+        
+        <!-- Dark Mode Toggle -->
         <div class="set" id="set" onclick="darkMode()">
             <img src="./assets/icons/moon.png" class="moon" alt="">
         </div>
+
+        <!-- Navigation Items -->
         <div class="menu" id="menu">
+
+            <!-- Logo menu for small screen -->
             <div class="menu-1">
                 <div>
                     <h4>EUSTACE DIKE</h4>
                     <h5>Web Developer</h5>
                 </div>
             </div>
+
+            <!-- Nav Items -->
             <div class="menu-2">
                 <div class="away" onclick="trys('flexible-1','flexible-2','flexible-3','flexible-4')"><img
                         src="./assets/icons/icons8-person-30.png" alt="">
@@ -40,6 +49,8 @@
                         src="./assets/icons/icons8-mail-50.png" alt="">
                     <p>CONTACT</p>
                 </div>
+
+                <!-- Way Class: Nav items on small screen (375px), used to initialize different functions -->
                 <a style="text-decoration: none; color: black;" href="#flexible-1" class="way"><div onclick="dropDown('chevron-1','flexible-1')"><img
                         src="./assets/icons/icons8-person-30.png" alt="">
                     <p>ABOUT</p>
@@ -59,14 +70,18 @@
                 
             </div>
         </div>
+
+        <!-- Background of "the-man" div -->
         <div class="back"></div>
+
+        <!-- Hero Image, Name and socials -->
         <div class="the-man" id="the-man">
             <div class="me">
                 <img width="" height="100%" src="./assets/images/pgg-ag-removebg-preview.png" alt="">
             </div>
             <div class="my-details">
                 <h1>Eustace Dike</h1>
-                <!-- <button onclick="trys()">TRYYYYYYY</button> -->
+                
                 <h3>Web Developer</h3>
                 <div class="socials">
                     <a href="https://twitter.com/eustace_dike"><img src="./assets/icons/icons8-twitter-30.png"
@@ -86,6 +101,8 @@
                 </div>
             </div>
         </div>
+
+        <!-- About Me -->
         <div class="flexible" id="flexible-1">
             <div class="about" id="aboutt">
                 <div class="title-text">
@@ -114,6 +131,8 @@
                     <div class="box-2"></div>
                 </div>
             </div>
+
+            <!-- My Skills -->
             <div class="services">
                 <div class="title-text">
                     <h2><span>My</span> Skills</h2>
@@ -139,6 +158,7 @@
             </div>
         </div>
 
+        <!-- Resume -->
         <div class="flexible-gone" id="flexible-2" style='display: nne;'>
             <div class="resume" id="resumee">
                 <div class="title-text">
@@ -146,6 +166,8 @@
                     <img src="./assets/icons/icons8-double-down-100.png" class="chevron" id="chevron-2"
                         onclick="dropDown('chevron-2','flexible-2')" alt="">
                 </div>
+
+                <!-- Experience -->
                 <div class="title-content">
                     <div class="box-1">
                         <div class="xperience">
@@ -158,7 +180,12 @@
                                     <p class="resume-date" id="current">JUL 2022 --- Date</p>
                                     <p><b>Coding Instructor</b></p>
                                     <p class="resume-place">Aceplora Coding Academy</p>
-                                    <p>Collaborate with creative and development teams on the execution of ideas.</p>
+                                    <ul>
+                                        <li>Coaching of students on web development processes</li>
+                                        <li>Assisting the students to debug their codes while other instructors take the class</li>
+                                        <li>Assisting the students to build their capstone projects</li>
+                                        
+                                    </ul>
                                 </div>
                                 <div class="xper">
                                     <p class="resume-date">MAY 2022 --- JUL 2022</p>
@@ -184,6 +211,8 @@
                                 </div>
                             </div>
                         </div>
+
+                        <!-- Education -->
                         <div class="education">
                             <div class="head-box">
                                 <img src="./assets/icons/icons8-student-center-90.png" alt="">
@@ -193,7 +222,7 @@
                                 <div class="xper">
                                     <p class="resume-date" id="current">OCT 2021 --- Date</p>
                                     <p><b>National Youths Service Corps</b></p>
-                                    <!-- <p class="resume-place">Aceplora Coding Academy</p> -->
+                                    
 
                                 </div>
                                 <div class="xper">
@@ -219,12 +248,16 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Skills and Qualities -->
             <div class="skills">
                 <div class="title-text">
                     <h2><span>SKILLS</span> AND QUALITIES</h2>
                 </div>
                 <div class="title-content">
                     <div class="box-1">
+
+                        <!-- Skills -->
                         <div class="skill">
                             <div class="title-text">
                                 <h2><span>My</span> Skills</h2>
@@ -238,6 +271,8 @@
                             <h4>ReactJs</h4>
                             <meter min="0" max="100" low="25" high="70" optimum="80" value="82"></meter>
                         </div>
+
+                        <!-- Qualities -->
                         <div class="quality">
                             <div class="title-text">
                                 <h2><span>My</span> Qualities</h2>
@@ -255,6 +290,7 @@
             </div>
         </div>
 
+        <!-- My Recent Projects -->
         <div class="flexible-gone" id="flexible-3">
             <div class="projects" id="projectss">
                 <div class="title-text">
@@ -298,6 +334,7 @@
 
         </div>
 
+        <!-- Contact section -->
         <div class="flexible-gone" id="flexible-4">
             <div class="contact-sect" id="contactt">
                 <div class="title-text">
@@ -308,7 +345,7 @@
 
 
                 <div class="contact-form">
-                    <form action="https://formspree.io/f/xyylngw" method="POST">
+                    <form action="https://formspree.io/f/xwkyqvve" method="POST">
                         <div class="form-1">
                             <label for="name"><b>Name</b></label> <br>
                             <input class="puth" type="text" name="sender-name" placeholder="Enter Your Name" required />
@@ -336,27 +373,27 @@
                         <div class="socicons">
                             <div>
                                 <img src="./assets/icons/icons8-phone-50.png" alt="">
-                                <a href="">+234 703 723 0631</a>
+                                <a href="tel: +234-703-723-0631">+234 703 723 0631</a>
                             </div>
                             <div>
                                 <img src="./assets/icons/icons8-mail-50 (1).png" alt="">
-                                <a href="">eustacedyke@gmail.com</a>
+                                <a href="mailto: eustacedyke@gmail.com">eustacedyke@gmail.com</a>
                             </div>
                             <div>
                                 <img src="./assets/icons/icons8-github-50.png" alt="">
-                                <a href="">eustacedike</a>
+                                <a href="https://github.com/eustacedike">eustacedike</a>
                             </div>
                             <div>
                                 <img src="./assets/icons/icons8-twitter-30 (2).png" alt="">
-                                <a href="">@eustace_dike</a>
+                                <a href="https://twitter.com/eustace_dike">@eustace_dike</a>
                             </div>
                             <div>
                                 <img src="./assets/icons/icons8-telegram-app-50.png" alt="">
-                                <a href="">@eustacedike</a>
+                                <a href="https://t.me/eustacedike">@eustacedike</a>
                             </div>
                             <div>
                                 <img src="./assets/icons/icons8-linkedin-circled-50.png" alt="">
-                                <a href="">Eustace Dike</a>
+                                <a href="https://www.linkedin.com/in/eustace-dike-123557211/">Eustace Dike</a>
                             </div>
 
 
@@ -398,12 +435,15 @@
 
         </div>
 
+        <!-- Cube animations -->
         <div class="cube"></div>
         <div class="cube"></div>
         <div class="cube"></div>
         <div class="cube"></div>
         <div class="cube"></div>
         <div class="cube"></div>
+
+        <p>Copyright &copy; by <a href="https://www.linkedin.com/in/eustace-dike-123557211/"> Eustace Dike</a> 2022</p>
     </div>
 
 
