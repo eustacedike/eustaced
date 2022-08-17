@@ -124,7 +124,7 @@
    }
  
    .d_set {
-     background-color: #fff;
+     background-color: #000;
    }
  
   
@@ -810,6 +810,16 @@
      
    }
  
+.copyr {
+text-align: center;
+color: #000;
+}
+
+
+
+.d_hero .copyr {
+color: #fff;
+}
  
 
    /* Media Query start */
@@ -1057,4 +1067,9 @@
  
    @media (min-width: 801px) {
      .flexible {height: 565px !important;}
+.copyr {
+position: absolute;
+bottom: 2%;
+width: 100%;
+}
    }
