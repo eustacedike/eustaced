@@ -298,12 +298,18 @@
      overflow: hidden;
      display: flex;
      align-items: flex-end;
-    
+     clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 100%, 0 160px);
    } 
- 
+
+   
  
    .me img {
      margin: 0 auto;
+     
+   }
+
+   .d_hero .me img {
+    filter: hue-rotate(30deg) saturate(250%);
    }
    
  
@@ -315,8 +321,11 @@
  
    .my-details h3 {
      color: var(--primary-light-color);
+     
    }
- 
+
+    
+
    .d_the-man .my-details h3 {
      color: var(--dark-color);
    }
@@ -781,9 +790,7 @@
  
        
    
-   .me{
-     clip-path: polygon(0 0, 100% 0, 100% 84%, 50% 100%, 0 84%);
-   }
+   
  
    
    
