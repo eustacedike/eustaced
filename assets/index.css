@@ -222,8 +222,7 @@
    }
  
    .the-man {
-     min-height: 620px;
-     height: 42vw;
+     height: 620px;
      width: 37%;
      background-color: #fff;
      margin: 2.5% 12%;
@@ -236,8 +235,7 @@
    
    .back {
      background-color: var(--secondary-light-color);
-     min-height: 620px;
-     height: 42vw;
+     height: 620px;
      width: 37%;
      
      margin: 2% 11.2%;
@@ -394,8 +392,8 @@
    }
  
    .flexible {
-     min-height: 565px;
-     height: 38vw;
+    height: 565px;
+  
      width: 70%;
      top: 0%;
      left: 0%;
@@ -463,6 +461,8 @@
  .para {
    width: 45%;
    text-align: justify;
+   font-size: clamp(14px, 1.1vw, 20px);
+   /* line-height: 1.6vw; */
  }
  
  .stats {
@@ -880,8 +880,8 @@ color: #fff;
        width: 75%;
        margin: 20px 12%;
        
-       padding: 2%;
-       padding-left: 2%;
+       padding: 2% 4%;
+       
        overflow: hidden;
        height: 50px;
        top: 0%;
@@ -925,6 +925,8 @@ color: #fff;
      .way a{
        color: #000;
      }
+
+     /* .box-work {border: 1px solid red;} */
    }
  
    @media (max-width: 1200px) {
@@ -958,13 +960,14 @@ color: #fff;
  
    .box-work {
      text-align: center;
+     justify-content: center;
      flex-wrap: wrap;
      
      
    }
  
    .box-work img {
-     margin: 0 auto;
+     margin: 10px auto !important;
      
    }
  
@@ -1082,4 +1085,20 @@ position: absolute;
 bottom: 2%;
 width: 100%;
 }
+   }
+
+
+   @media (min-width: 861px) {
+    
+   
+   .the-man, .back {
+    min-height: 620px;
+     height: 42vw;
+   }
+
+   .flexible {
+    min-height: 565px;
+     height: 38vw;
+   }
+      
    }

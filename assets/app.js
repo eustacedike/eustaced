@@ -25,10 +25,10 @@ x.classList.replace("flexible-gone","flexible");
     document.getElementById('the-man').classList.toggle("d_the-man");
 
     
-    if (document.getElementById('set').innerHTML === '<img src="./assets/icons/sun.png" class="sun" alt="">') {
-      document.getElementById('set').innerHTML = '<img src="./assets/icons/moon.png" class="moon" alt="">'
-    } else {
+    if (document.getElementById('set').innerHTML === '<img src="./assets/icons/moon.png" class="moon" alt="">') {
       document.getElementById('set').innerHTML = '<img src="./assets/icons/sun.png" class="sun" alt="">'
+    } else {
+      document.getElementById('set').innerHTML = '<img src="./assets/icons/moon.png" class="moon" alt="">'
     };
     
     
