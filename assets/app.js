@@ -53,5 +53,26 @@ if (drops.style.height === 'auto') {
     
   }
 
+
+  var i = 0;
+var txt = 'Hi, My name is Eustace Dike and I am a frontend developer'; /* The text */
+var speed = 150; /* The speed/duration of the effect in milliseconds */
+
+
+
+
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("box-anim").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+
+setTimeout(typeWriter,4000)
+
+
+
   
   
