@@ -61,24 +61,24 @@ var txt = 'Hi, My name is Eustace Dike and I am a frontend developer'; /* The te
 console.log(txt.length);
 
 function clear () {
-  document.getElementById("box-anim").innerHTML = "";
+  document.getElementById("boxxd").innerHTML = "";
 }
 
 function typeWriter() {
   if (i < txt.length) {
     
-    document.getElementById("box-anim").innerHTML += txt.charAt(i);
+    document.getElementById("boxxd").innerHTML += txt.charAt(i);
     i++;
-    setTimeout(typeWriter, 100);
+    setTimeout(typeWriter, 105);
   } 
   else {
-    setTimeout(typeWriter,6000);
+    setTimeout(typeWriter,4000);
     i = 0;
-    setTimeout(clear,3000);
+    setTimeout(clear,2000);
   }
 }
 
-setTimeout(typeWriter,3000);
+setTimeout(typeWriter,4000);
 
 
 
