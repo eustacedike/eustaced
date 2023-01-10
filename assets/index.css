@@ -92,7 +92,7 @@ body {
   box-shadow: 0px 2px 5px 1px grey;
   position: fixed;
 
-  animation: comingUp 1s 2s backwards;
+  animation: comingUp 1s 6.1s backwards;
 }
 
 
@@ -249,7 +249,7 @@ body {
   position: absolute;
   text-align: center;
   z-index: 4;
-  animation: zoomInDown 2s ease-in-out;
+  animation: zoomInDown 6.2s ease-in-out;
 
 }
 
@@ -777,6 +777,38 @@ meter {
   animation: arrowMove 2s infinite;
 }
 
+@keyframes feelfree1 {
+  0% {position: fixed; top: 0; left: -50%}
+  45% {position: fixed; top: 0; left: 4%}
+  50% {position: fixed; top: 0; left: 0%}
+  98% {position: fixed; top: 100%; left: 0%}
+  /* 100% {position: static;} */
+}
+
+@keyframes feelfree2 {
+  0% {position: fixed; top: 8%; left: -50%}
+  33% {position: fixed; top: 8%; left: 4%}
+  38% {position: fixed; top: 8%; left: 0%}
+  85% {position: fixed; top: 110%; left: 0%}
+  /* 100% {position: static;} */
+}
+
+@keyframes feelfree3 {
+  0% {position: fixed; top: 16%; left: -50%}
+  21% {position: fixed; top: 16%; left: 4%}
+  26% {position: fixed; top: 16%; left: 0%}
+  72% {position: fixed; top: 120%; left: 0%}
+  /* 100% {position: static;} */
+}
+
+@keyframes feelfree4 {
+  0% {position: fixed; top: 24%; left: -50%}
+  9% {position: fixed; top: 24%; left: 4%}
+  14% {position: fixed; top: 24%; left: 0%}
+  59% {position: fixed; top: 130%; left: 0%}
+  /* 100% {position: static;} */
+}
+
 @keyframes arrowMove {
   0% {
     margin-left: 10px;
@@ -1077,7 +1109,21 @@ meter {
     height: 78%;
   }
 
-  /* .box-work {border: 1px solid red;} */
+  .new-anim1 {
+    animation: feelfree1 4s forwards !important;
+  }
+
+  .new-anim2 {
+    animation: feelfree2 4s  forwards !important;
+  }
+
+  .new-anim3 {
+    animation: feelfree3 4s forwards !important;
+  }
+
+  .new-anim4 {
+    animation: feelfree4 4s forwards !important;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -1287,7 +1333,15 @@ meter {
     transform: scale3d(.1, .1, .1) translate3d(0, -1000px, 0)
   }
 
-  60% {
+  66% {
+    -webkit-animation-timing-function: cubic-bezier(.55, .055, .675, .19);
+    animation-timing-function: cubic-bezier(.55, .055, .675, .19);
+    opacity: 0;
+    -webkit-transform: scale3d(.1, .1, .1) translate3d(0, -1000px, 0);
+    transform: scale3d(.1, .1, .1) translate3d(0, -1000px, 0)
+  }
+
+  87% {
     -webkit-animation-timing-function: cubic-bezier(.175, .885, .32, 1);
     animation-timing-function: cubic-bezier(.175, .885, .32, 1);
     opacity: 1;
