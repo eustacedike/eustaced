@@ -13,15 +13,15 @@
 <body>
 
     <!-- Hero: Main parent container -->
-    <div class="hero d_hero" id="hero">
+    <div class="hero" id="hero">
         
         <!-- Dark Mode Toggle -->
-        <div class="set d_set" id="set" onclick="darkMode()">
-            <img src="./assets/icons/sun.png" class="sun" alt="">
+        <div class="set" id="set" onclick="darkMode()">
+            <img src="./assets/icons/moon.png" class="moon" alt="">
         </div>
 
         <!-- Navigation Items -->
-        <div class="menu d_menu" id="menu">
+        <div class="menu" id="menu">
 
             <!-- Logo menu for small screen -->
             <div class="menu-1">
@@ -51,19 +51,19 @@
                 </div>
 
                 <!-- Way Class: Nav items on small screen (375px), used to initialize different functions -->
-                <a style="text-decoration: none; color: black;" href="#flexible-1" class="way"><div onclick="dropDown('chevron-1','flexible-1')"><img
+                <a style="text-decoration: none; color: black;" href="#flexible-1" class="way"><div onclick="dropDown('chevron-1','flexible-1','new-anim1')"><img
                         src="./assets/icons/icons8-person-30.png" alt="">
                     <p>ABOUT</p>
                 </div></a>
-                <a style="text-decoration: none; color: black;" href="#flexible-2" class="way"><div onclick="dropDown('chevron-2','flexible-2')"><img
+                <a style="text-decoration: none; color: black;" href="#flexible-2" class="way"><div onclick="dropDown('chevron-2','flexible-2','new-anim2')"><img
                         src="./assets/icons/icons8-resume-30.png" alt="">
                     <p>RESUME</p>
                 </div></a>
-                <a style="text-decoration: none; color: black;" href="#flexible-3" class="way"><div onclick="dropDown('chevron-3','flexible-3')"><img
+                <a style="text-decoration: none; color: black;" href="#flexible-3" class="way"><div onclick="dropDown('chevron-3','flexible-3','new-anim3')"><img
                         src="./assets/icons/icons8-workstation-50.png" alt="">
                     <p>PROJECTS</p>
                 </div></a>
-                <a style="text-decoration: none; color: black;" href="#flexible-4" class="way"><div onclick="dropDown('chevron-4','flexible-4')"><img
+                <a style="text-decoration: none; color: black;" href="#flexible-4" class="way"><div onclick="dropDown('chevron-4','flexible-4','new-anim4')"><img
                         src="./assets/icons/icons8-mail-50.png" alt="">
                     <p>CONTACT</p>
                 </div></a>
@@ -75,7 +75,7 @@
         <div class="back"></div>
 
         <!-- Hero Image, Name and socials -->
-        <div class="the-man d_the-man" id="the-man">
+        <div class="the-man" id="the-man">
             <div class="me">
                 <img width="" height="90%" src="./assets/images/send2-removebg-preview.png" alt="">
             </div>
@@ -103,12 +103,12 @@
         </div>
 
         <!-- About Me -->
-        <div class="flexible d_lexx new-anim1" id="flexible-1">
+        <div class="flexible new-anim1" id="flexible-1">
             <div class="about" id="aboutt">
                 <div class="title-text">
                     <h2><span>About</span> Me</h2>
                     <img src="./assets/icons/icons8-double-down-100.png" class="chevron" id="chevron-1"
-                        onclick="dropDown('chevron-1','flexible-1')" alt="">
+                        onclick="dropDown('chevron-1','flexible-1','new-anim1')" alt="">
                 </div>
                 <div class="title-content">
                     <div class="box-1">
@@ -205,12 +205,12 @@
         </div>
 
         <!-- Resume -->
-        <div class="flexible-gone d_lexx new-anim2" id="flexible-2" style='display: nne;'>
+        <div class="flexible-gone new-anim2" id="flexible-2" style='display: nne;'>
             <div class="resume" id="resumee">
                 <div class="title-text">
                     <h2><span>My</span> Resume</h2>
                     <img src="./assets/icons/icons8-double-down-100.png" class="chevron" id="chevron-2"
-                        onclick="dropDown('chevron-2','flexible-2')" alt="">
+                        onclick="dropDown('chevron-2','flexible-2','new-anim2')" alt="">
                 </div>
 
                 <!-- Experience -->
@@ -347,12 +347,12 @@
         </div>
 
         <!-- My Recent Projects -->
-        <div class="flexible-gone d_lexx new-anim3" id="flexible-3">
+        <div class="flexible-gone new-anim3" id="flexible-3">
             <div class="projects" id="projectss">
                 <div class="title-text">
                     <h2><span>Recent</span> Projects</h2>
                     <img src="./assets/icons/icons8-double-down-100.png" class="chevron" id="chevron-3"
-                        onclick="dropDown('chevron-3','flexible-3')" alt="">
+                        onclick="dropDown('chevron-3','flexible-3','new-anim3')" alt="">
                 </div>
                 <div class="works">
                     <div class="box-work">
@@ -432,12 +432,12 @@
         </div>
 
         <!-- Contact section -->
-        <div class="flexible-gone d_lexx new-anim4" id="flexible-4">
+        <div class="flexible-gone new-anim4" id="flexible-4">
             <div class="contact-sect" id="contactt">
                 <div class="title-text">
                     <h2><span>Contact</span> Me</h2>
                     <img src="./assets/icons/icons8-double-down-100.png" class="chevron" id="chevron-4"
-                        onclick="dropDown('chevron-4','flexible-4')" alt="">
+                        onclick="dropDown('chevron-4','flexible-4','new-anim4')" alt="">
                 </div>
 
 

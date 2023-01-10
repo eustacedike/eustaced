@@ -50,7 +50,7 @@
 /* Body */
 body {
   height: max-content;
-  background-color: var(--secondary-dark-color);
+  background-color: var(--secondary-light-color);
 
 }
 
@@ -1026,7 +1026,7 @@ meter {
 
   .longDrop {
 
-    animation: longed 1s ease-in-out;
+    animation: longed 1s backwards;
 
   }
 
@@ -1126,6 +1126,9 @@ meter {
     height: 78%;
   }
 
+  
+
+
   .new-anim1 {
     animation: feelfree1 7s backwards !important;
   }
@@ -1141,6 +1144,7 @@ meter {
   .new-anim4 {
     animation: feelfree4 7s backwards !important;
   }
+
 }
 
 @media (max-width: 1200px) {
@@ -1421,7 +1425,7 @@ meter {
 }
 
 @keyframes comingUp {
-  0% {margin-top: 800px; transform: scale(0.5);}
+  0% {margin-top: 1000px; transform: scale(0.5);}
   100% {margin-top: 150px; transform: scale(1);}
 }
 

@@ -25,16 +25,16 @@ x.classList.replace("flexible-gone","flexible");
     document.getElementById('the-man').classList.toggle("d_the-man");
 
     
-    if (document.getElementById('set').innerHTML === '<img src="./assets/icons/moon.png" class="moon" alt="">') {
-      document.getElementById('set').innerHTML = '<img src="./assets/icons/sun.png" class="sun" alt="">'
-    } else {
+    if (document.getElementById('set').innerHTML === '<img src="./assets/icons/sun.png" class="sun" alt="">') {
       document.getElementById('set').innerHTML = '<img src="./assets/icons/moon.png" class="moon" alt="">'
+    } else {
+      document.getElementById('set').innerHTML = '<img src="./assets/icons/sun.png" class="sun" alt="">'
     };
     
     
   }
 
-  function dropDown (ch, dd1) {
+  function dropDown (ch, dd1, newAnim) {
     var chev = document.getElementById(ch);
     chev.classList.toggle('chevup');
 
@@ -42,14 +42,13 @@ x.classList.replace("flexible-gone","flexible");
 
     drops.classList.replace("flexible-gone","flexible");
     drops.classList.toggle('longDrop');
+    drops.classList.remove(newAnim);
 
 if (drops.style.height === 'auto') {
   drops.style.height = '50px';
 } else {
   drops.style.height = 'auto';
-}
-
-    
+}   
     
   }
 
