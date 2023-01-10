@@ -778,43 +778,43 @@ meter {
 }
 
 @keyframes feelfree1 {
-  0% {position: fixed; top: 8%; left: -100%}
-  35% {position: fixed; top: 8%; left: -100%}
-  45% {position: fixed; top: 8%; left: 4%}
-  47% {position: fixed; top: 8%; left: 0%}
-  65% {position: fixed; top: 8%; left: 0%}
+  0% {position: fixed; top: 68px; left: -100%}
+  35% {position: fixed; top: 68px; left: -100%}
+  45% {position: fixed; top: 68px; left: 4%}
+  47% {position: fixed; top: 68px; left: 0%}
+  65% {position: fixed; top: 68px; left: 0%}
   82% {position: fixed; top: 710px; left: 0%}
   100% {position: fixed; top: 710px; left: 0%}
   /* 100% {position: static;} */
 }
 
 @keyframes feelfree2 {
-  0% {position: fixed; top: 15%; left: -100%}
-  21% {position: fixed; top: 15%; left: -100%}
-  33% {position: fixed; top: 15%; left: 4%}
-  35% {position: fixed; top: 15%; left: 0%}
-  60% {position: fixed; top: 15%; left: 0%}
+  0% {position: fixed; top: 127px; left: -100%}
+  21% {position: fixed; top: 127px; left: -100%}
+  33% {position: fixed; top: 127px; left: 4%}
+  35% {position: fixed; top: 127px; left: 0%}
+  60% {position: fixed; top: 127px; left: 0%}
   77% {position: fixed; top: 790px; left: 0%}
   100% {position: fixed; top: 790px; left: 0%}
   /* 100% {position: static;} */
 }
 
 @keyframes feelfree3 {
-  0% {position: fixed; top: 22%; left: -100%}
-  7% {position: fixed; top: 22%; left: -100%}
-  19% {position: fixed; top: 22%; left: 4%}
-  21% {position: fixed; top: 22%; left: 0%}
-  55% {position: fixed; top: 22%; left: 0%}
+  0% {position: fixed; top: 186px; left: -100%}
+  7% {position: fixed; top: 186px; left: -100%}
+  19% {position: fixed; top: 186px; left: 4%}
+  21% {position: fixed; top: 186px; left: 0%}
+  55% {position: fixed; top: 186px; left: 0%}
   72% {position: fixed; top: 870px; left: 0%}
   100% {position: fixed; top: 870px; left: 0%}
   /* 100% {position: static;} */
 }
 
 @keyframes feelfree4 {
-  0% {position: fixed; top: 29%; left: -100%}
-  5% {position: fixed; top: 29%; left: 4%}
-  7% {position: fixed; top: 29%; left: 0%}
-  50% {position: fixed; top: 29%; left: 0%}
+  0% {position: fixed; top: 245px; left: -100%}
+  5% {position: fixed; top: 245px; left: 4%}
+  7% {position: fixed; top: 245px; left: 0%}
+  50% {position: fixed; top: 245px; left: 0%}
   67% {position: fixed; top: 950px; left: 0%}
   100% {position: fixed; top: 950px; left: 0%}
   /* 100% {position: static;} */
