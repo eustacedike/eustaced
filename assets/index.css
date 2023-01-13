@@ -721,9 +721,20 @@ meter {
 
 .box-work {
   display: flex;
-  margin: 50px 0;
+  margin: 45px 0;
+  padding: 20px 0;
+  gap: 25px;
+  cursor: pointer;
+}
 
+.box-work:hover {
+  transform: scale(0.99);
+  box-shadow: 0px 0px 7px 1px rgb(211, 211, 211, 0.6);
+  background-color: rgb(128, 128, 128,0.05);
+}
 
+.box-work:hover p {
+ /* display: none; */
 }
 
 .box-work span {
@@ -744,7 +755,9 @@ meter {
 }
 
 .box-work:hover img {
-  opacity: 0.3;
+  /* opacity: 0.3; */
+  transform: scale(1.35);
+  /* margin-bottom: 150px; */
 
 }
 
