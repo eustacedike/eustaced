@@ -725,6 +725,8 @@ meter {
   padding: 20px 0;
   gap: 25px;
   cursor: pointer;
+  flex-direction: column;
+  align-items: center;
 }
 
 .box-work:hover {
@@ -749,14 +751,14 @@ meter {
 .box-work img {
   width: 70%;
   min-width: 100px;
-  max-width: 250px;
-  height: 110px;
+  /* max-width: 250px; */
+  /* height: 110px; */
 
 }
 
 .box-work:hover img {
   /* opacity: 0.3; */
-  transform: scale(1.35);
+  transform: scale(1.15);
   /* margin-bottom: 150px; */
 
 }
@@ -772,7 +774,7 @@ meter {
   color: var(--primary-light-color);
   font-size: 20px;
   text-decoration: none;
-
+  font-weight: bold;
 }
 
 .lank {
