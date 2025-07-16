@@ -359,6 +359,7 @@ body {
   display: flex;
   justify-content: space-around;
   justify-self: baseline;
+  width: 100%;
 }
 
 .cv-contact div {
